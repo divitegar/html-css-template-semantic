@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>komponen | Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css" />
+</head>
+<body>
+    
+    <section class="container">
+        <header>
+            <img src="images/logo.png"/>
+        </header>
+
+        <section class="content">
+            <form action="proses-login.php" method="GET">
+
+                <label class="form-style">
+                    nama lengkap
+                    <input type="text" placeholder="nama lengkap" class="input">
+                </label>
+
+                <label class="form-style">
+                    Telepon
+                    <input type="number" placeholder="telepon" class="input">
+                </label>
+
+                <label class="form-style">
+                    Email
+                    <input type="email" placeholder="email" class="input">
+                </label>
+
+                <label class="form-style">
+                    Password
+                    <input type="password" placeholder="password" class="input">
+                </label>
+
+                <label class="form-style">
+                    Alamat
+                    <textarea class="input"></textarea>
+                </label>
+
+                <fieldset class="form-style">
+                    <legend>Hobby</legend>
+                    <label>
+                        <input type="checkbox" value="coding"> Koding
+                    </label>
+                    <label>
+                            <input type="checkbox" value="basket"> Basket
+                    </label>
+                    <label>
+                            <input type="checkbox" value="voli"> voli
+                    </label>
+                    <label>
+                            <input type="checkbox" value="futsal"> futsal
+                    </label>
+                </fieldset>
+
+                <fieldset class="form-style">
+                    <legend>Pekerjaan</legend>
+                    <label>
+                        <input type="radio" value="Direktur" name="Pekerjaan"> Direktur
+                    </label>
+                    <label>
+                            <input type="radio" value="manager" name="Pekerjaan"> manager
+                    </label>
+                    <label>
+                            <input type="radio" value="swasta" name="Pekerjaan"> swasta
+                    </label>
+                    <label>
+                            <input type="radio" value="belum bekerja" name="Pekerjaan"> belum bekerja
+                    </label>
+                </fieldset>
+
+                <label class="form-style">
+                    Ukuran Sepatu
+                    <select class="input">
+                        <option value="39">Ukuran 39</option>
+                        <option value="40">Ukuran 40</option>
+                        <option value="41">Ukuran 41</option>
+                        <option value="42">Ukuran 42</option>
+                    </select>
+                </label>
+
+                <label class="form-style">
+                    warna favorit
+                    <input list="warna" class="input">
+                    <datalist id="warna">
+                        <option value="M">Merah
+                        <option value="K">Kuning
+                        <option value="B">Biru
+                        <option value="H">Hijau
+                    </datalist>
+                </label>
+
+                    <input type="submit" value="kirim">
+            </form>
+        </section>
+
+        <nav class="sidebar">
+                <a href="index.html">Home</a>
+                <a href="form.html" class="active">Form</a>
+                <a href="table.html">table</a>
+        </nav>
+        
+        <footer>footer</footer>
+    </section>
+</body>
+</html>

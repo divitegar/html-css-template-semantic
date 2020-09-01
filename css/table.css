@@ -1,0 +1,37 @@
+table {
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+table:last-child {
+    margin-bottom: 0;
+}
+td, th {
+    border: 1px solid #d2d2d2;
+    padding: 5px 10px;
+}
+th {
+    background: grey;
+}
+
+th.no {
+    width: 15px;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    text-align: right;
+}
